@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: native
+  cloud:
+    config:
+      name: eureka-server
+      uri: http://127.0.0.1:8084/config/
+      profile: pro

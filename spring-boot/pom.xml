@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>boot-demo</artifactId>
+        <groupId>com.git.hui.boot</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>000-properties</module>
+        <module>001-properties</module>
+        <module>002-properties</module>
+        <module>002-properties-bind</module>
+        <module>003-log</module>
+        <module>003-log4j2</module>
+        <module>004-bean</module>
+        <module>004-bean-util</module>
+        <module>005-autoconfig</module>
+        <module>005-config-selector</module>
+        <module>006-dynamicbean</module>
+        <module>007-conditionbean</module>
+        <module>008-beanorder</module>
+        <module>008-beanorder-addition</module>
+        <module>008-beanorder-addition2</module>
+        <module>009-schedule</module>
+        <module>010-aop</module>
+        <module>011-aop-logaspect</module>
+        <module>012-context-listener</module>
+        <module>013-spel</module>
+        <module>014-spel-aop</module>
+
+        <module>100-mysql</module>
+        <module>101-jdbctemplate</module>
+        <module>101-jdbctemplate-transaction</module>
+        <module>102-jpa</module>
+        <module>102-jpa-errorcase</module>
+        <module>102-jpa-errorcase2</module>
+        <module>103-mybatis-xml</module>
+        <module>104-mybatis-noxml</module>
+        <module>105-mybatis-plus</module>
+        <module>106-mybatis-plus-generator</module>
+        <module>107-jooq-aop</module>
+        <module>100-h2database</module>
+        <module>108-jooq-curd</module>
+        <module>108-jooq-mysql</module>
+        <module>109-multi-datasource</module>
+        <module>109-multi-datasource-mybatis</module>
+        <module>109-multi-datasource-mybatis-plus</module>
+        <module>109-multi-datasource-mybatis-ano</module>
+
+        <module>110-mongo-basic</module>
+        <module>111-mongo-template</module>
+
+        <module>120-redis-config</module>
+        <module>121-redis-jedis-config</module>
+        <module>122-redis-template</module>
+        <module>123-redis-lettuce-config</module>
+        <module>124-redis-cluster</module>
+        <module>125-cache-ano</module>
+        <module>126-redisson</module>
+
+        <module>130-influxdb</module>
+        <module>131-influxdb-java</module>
+
+        <module>140-search-solr</module>
+        <module>141-search-solr-auth</module>
+
+        <module>200-webflux</module>
+        <module>200-reactor</module>
+        <module>201-web</module>
+        <module>202-web-params</module>
+        <module>203-websocket</module>
+        <module>204-web-freemaker</module>
+        <module>205-web-thymeleaf</module>
+        <module>206-web-beetl</module>
+        <module>207-web-response</module>
+        <module>208-web-mapping</module>
+        <module>209-web-error</module>
+        <module>210-web-filter</module>
+        <module>210-web-filter-order</module>
+        <module>211-web-servlet</module>
+        <module>212-web-listener</module>
+
+
+        <module>220-web-sse</module>
+
+        <module>202-web-params-validate</module>
+        <module>204-web-static-resources</module>
+        <module>204-web-static-resources-ui</module>
+        <module>221-web-resttemplate</module>
+        <module>222-web-client</module>
+        <module>223-webflux-params</module>
+        <module>219-web-asyn</module>
+
+
+        <module>230-web-resin</module>
+
+
+        <module>300-rabbitmq</module>
+        <module>301-rabbitmq-publish</module>
+        <module>302-rabbitmq-consumer</module>
+
+        <module>400-docker-demo</module>
+
+        <module>410-zookeeper-basic</module>
+        <module>411-zookeeper-distributelock</module>
+        <module>420-prometheus-basic</module>
+        <module>150-i18n</module>
+        <module>002-properties-value</module>
+        <module>002-dynamic-envronment</module>
+        <module>104-mybatis-ano</module>
+        <module>430-email</module>
+        <module>213-web-interceptor</module>
+
+
+    </modules>
+
+    <artifactId>spring-boot</artifactId>
+
+    <description>SpringBoot相关演示demo</description>
+
+
+</project>
